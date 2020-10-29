@@ -1,0 +1,25 @@
+LoginPage:
+  username: /html/body/form/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[1]/td[2]/div/input
+  password: /html/body/form/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[2]/div/input
+  submit: //*[@id="in1"]
+  framemain: topFrame
+  success_image: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[1]/table/tbody/tr/td[2]/div
+AddPage:
+  frametop: topFrame
+  user_info: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr/td[5]/table/tbody/tr/td/div/a
+  framemain: mainFrame
+  add: /html/body/form/table/tbody/tr[1]/td/table/tbody/tr/td[2]/table/tbody/tr/td[4]/input
+  CustomerName: /html/body/form/table[1]/tbody/tr[2]/td[2]/input
+  customerBirthday: //*[@id="customerBirthday"]
+  CustomerAddMan: //input[@name='customerAddMan']
+  CustomerEmail: /html/body/form/table[1]/tbody/tr[4]/td[4]/input
+  Submit: /html/body/form/table[2]/tbody/tr/td[2]/input
+Modify:
+  TopFrame: topFrame
+  user_info: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr/td[5]/table/tbody/tr/td/div/a
+  MainFrame: mainFrame
+  Edit: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[13]/div/span/a[1]
+  Clear: /html/body/form/table[1]/tbody/tr[5]/td[4]/input
+  CustomerMobile: /html/body/form/table[1]/tbody/tr[5]/td[4]/input
+  Submit: /html/body/form/table[2]/tbody/tr/td[2]/input
+
